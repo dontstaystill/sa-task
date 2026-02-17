@@ -87,8 +87,11 @@
 
 Запрос:
 GET /api/v1/partners/stores
+
 Host: api.petrushka-green.com
+
 Accept: application/json
+
 Authorization: Bearer {user_token}
 
 Ответ:
