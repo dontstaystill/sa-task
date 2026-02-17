@@ -106,4 +106,5 @@ Authorization: Bearer {user_token}
 Что нужно сделать:
 Построить верхнеуровневую архитектурую схему - как должна работать отправка PUSH уведомлений в данном приложении. Можно просто в виде блок схем. Считаем, что на бэкенде микросервисная архитектура. В данном задании рекомендуется в интернете изучить архитектуры подобных решений.*
 
-<img width="761" height="784" alt="image" src="https://github.com/user-attachments/assets/402ae5d4-a43a-4ccb-8655-1701d9877b78" />
+<img width="744" height="768" alt="image" src="https://github.com/user-attachments/assets/74142fd4-e19f-4692-94dc-a707c7dda992" />
+
