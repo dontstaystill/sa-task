@@ -73,77 +73,15 @@ Host: api.petrushka-green.com
 Accept: application/json
 Authorization: Bearer {user_token}
 
-{
-  "status": "success",
-  "data": {
-    "screen_title": "Выберите магазин",
-    "stores": [
-      {
-        "id": 1,
-        "name": "METRO",
-        "logo_url": "https://static.petrushka-green.com/partners/metro.png",
-        "delivery_info": {
-          "type": "scheduled",
-          "text": "Ближайшая доставка сегодня 21:00–23:00",
-          "delivery_date": "2026-02-17",
-          "time_from": "21:00",
-          "time_to": "23:00"
-        },
-        "external_link": "https://www.metro-cc.ru",
-        "is_active": true,
-        "priority": 1
-      },
-      {
-        "id": 2,
-        "name": "Ашан",
-        "logo_url": "https://static.petrushka-green.com/partners/ashan.png",
-        "delivery_info": {
-          "type": "scheduled",
-          "text": "Ближайшая доставка сегодня 18:00–20:00",
-          "delivery_date": "2026-02-17",
-          "time_from": "18:00",
-          "time_to": "20:00"
-        },
-        "external_link": "https://www.auchan.ru",
-        "is_active": true,
-        "priority": 2
-      },
-      {
-        "id": 3,
-        "name": "ВкусВилл",
-        "logo_url": "https://static.petrushka-green.com/partners/vkusvill.png",
-        "delivery_info": {
-          "type": "express",
-          "text": "Быстрая доставка от 20 до 60 минут",
-          "min_minutes": 20,
-          "max_minutes": 60
-        },
-        "external_link": "https://vkusvill.ru",
-        "is_active": true,
-        "priority": 3
-      },
-      {
-        "id": 4,
-        "name": "ВИКТОРИЯ",
-        "logo_url": "https://static.petrushka-green.com/partners/victoria.png",
-        "delivery_info": {
-          "type": "scheduled",
-          "text": "Ближайшая доставка сегодня 17:00–19:00",
-          "delivery_date": "2026-02-17",
-          "time_from": "17:00",
-          "time_to": "19:00"
-        },
-        "external_link": "https://victoria.ru",
-        "is_active": true,
-        "priority": 4
-      }
- "meta": {
-    "total": 4,
-    "city": "moscow",
-    "timestamp": "2026-02-17T09:41:00Z"
-  }
-}
-*Задание 3: архитектура
+Ответ:
+
+<img width="731" height="688" alt="image" src="https://github.com/user-attachments/assets/406751f8-a642-493b-8a3f-b9335857d1f8" />
+<img width="764" height="687" alt="image" src="https://github.com/user-attachments/assets/3d79d15e-29e3-402a-8b69-f42fe71395a4" />
+
+
+
+*Задание 3: Архитектура*
+
 Что нужно сделать:
 Построить верхнеуровневую архитектурую схему - как должна работать отправка PUSH уведомлений в данном приложении. Можно просто в виде блок схем. Считаем, что на бэкенде микросервисная архитектура. В данном задании рекомендуется в интернете изучить архитектуры подобных решений.*
 
